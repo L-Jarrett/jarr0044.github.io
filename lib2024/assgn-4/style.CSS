@@ -20,21 +20,7 @@ h1{font-family:"Open Sans Condensed"}
  }
 
 
-div {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
 
-html
-{
-  box-sizing: border-box;
-}
-
-*,*:before, *after {
-box-sizing: inherit;
-}
 
 
 
