@@ -25,7 +25,9 @@ h1{font-family:"Open Sans Condensed"}
  }
 
 
-
+div {
+  word-wrap: break-word;
+}
 
 
 
