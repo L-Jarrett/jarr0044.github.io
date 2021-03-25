@@ -19,6 +19,17 @@ h1{font-family:"Open Sans Condensed"}
    font-size: 20pt;
  }
 
+html
+{
+  box-sizing: border-box;
+}
+
+*,*:before, *after {
+box-sizing: inherit;
+}
+
+
+
  #main_side {
    float: right;
  }
