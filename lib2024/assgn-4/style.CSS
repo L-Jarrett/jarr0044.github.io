@@ -1,0 +1,30 @@
+
+ #main_title {Title of Page
+    font-size: 30pt;
+ }
+ #main_left {
+   font: <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">;
+   font-size: 20pt;
+ }
+
+ #main_side {
+   float: right;
+ }
+ #footer {
+   background-color: green;
+ }
+ 
+ #copyright {
+    position: absolute;
+    right: 0px;
+ }
+
+ .social_button {
+   border: 10px;
+ }
+ .social_image {
+   width: 100px;
+   height: 20px;
+ }
+
