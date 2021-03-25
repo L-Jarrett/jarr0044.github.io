@@ -5,6 +5,10 @@ h1{font-family:"Open Sans Condensed"}
 {
   background: url(double-bubble.png) no-repeat center fixed;
   background-size: cover;
+background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+
+
 }
 
  #header {}
@@ -28,6 +32,8 @@ h1{font-family:"Open Sans Condensed"}
 div {
   word-wrap: break-word;
 }
+
+
 
 
 
