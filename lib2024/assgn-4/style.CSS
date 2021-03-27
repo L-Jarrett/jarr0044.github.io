@@ -9,9 +9,10 @@ background-color: rgb(255,255,255);
 }
 
  #header {background-color:#7cc576;
+          padding: 1em;
  }
 
- #headertitle {}
+ #headertitle {"Open Sans Condensed"}
 
 #Home {
   background-color: RGB (109,207,246);
