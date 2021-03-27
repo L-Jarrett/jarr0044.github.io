@@ -15,7 +15,8 @@ background-color: rgb(255,255,255);
 #Home {
 
   background-color: RGB (109,207,246);
-  border: 1em;
+  padding: 1em;
+  float: left;
 }
 
 
