@@ -12,62 +12,34 @@ background-color: rgb(255,255,255);
 
  #headertitle {}
 
+#Home {
 
+  background-color: #6dcff6;
+  border: 5px solid #000;
+}
 
 
 
  #main_title {Title of Page
     font-size: 30pt;
  }
+
+
+
+
+
+
+
+
+
+
+
+
  #main_left {
    font: <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">;
    font-size: 20pt;
  }
-
-
-div {
-  word-wrap: break-word;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  width: 100%;
-}
-th,
-td {
-  padding: 6px 15px;
-}
-th {
-  background: #42444e;
-  color: #fff;
-  text-align: left;
-}
-tr:first-child th:first-child {
-  border-top-left-radius: 6px;
-}
-tr:first-child th:last-child {
-  border-top-right-radius: 6px;
-}
-td {
-  border-right: 1px solid #c6c9cc;
-  border-bottom: 1px solid #c6c9cc;
-}
-td:first-child {
-  border-left: 1px solid #c6c9cc;
-}
-tr:nth-child(even) td {
-  background: #eaeaed;
-}
-tr:last-child td:first-child {
-  border-bottom-left-radius: 6px;
-}
-tr:last-child td:last-child {
-  border-bottom-right-radius: 6px;
-}
-
-
 
 
  #main_side {
