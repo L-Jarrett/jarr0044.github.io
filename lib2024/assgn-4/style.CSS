@@ -46,8 +46,12 @@ background-color: rgb(255,255,255);
 
 
  #main_side {
+   padding: 1em;
    float: right;
  }
+
+
+
  #footer {
    background-color: rgb(124,197,118);
    margin: 1em 0;
