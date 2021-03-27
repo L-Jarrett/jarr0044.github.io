@@ -46,6 +46,14 @@ background-color: rgb(255,255,255);
    box-sizing: border-box;
     }
 
+figure {
+    float: left;
+    /* set a margin to push the figures away from each other a bit */
+    margin: 10px;
+}
+
+
+
 
  #main_side {
    padding: 1em;
