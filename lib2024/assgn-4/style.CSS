@@ -61,6 +61,7 @@ background-color: rgb(255,255,255);
  #footer {
    background-color: rgb(124,197,118);
    margin: 1em 0;
+   clear:both;
  }
  
  #copyright {
