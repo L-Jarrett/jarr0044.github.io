@@ -46,6 +46,7 @@ background-color: rgb(255,255,255);
    float: left;
    width: 65%;
    box-sizing: border-box;
+   overflow:hidden;
  }
 
 
