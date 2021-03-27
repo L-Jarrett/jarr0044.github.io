@@ -44,12 +44,14 @@ background-color: rgb(255,255,255);
    font-size: 20pt;
    padding: 1em;
    float: left;
+   width: 65%;
  }
 
 
  #main_side {
    padding: 1em;
    float: right;
+   width: 30%;
  }
 
 
