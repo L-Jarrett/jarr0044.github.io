@@ -39,8 +39,7 @@ background-color: rgb(255,255,255);
 
 
  #main_left {
-  "clearfix" 
-   font: <link rel="preconnect" href="https://fonts.gstatic.com">
+     font: <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">;
    font-size: 20pt;
    padding: 1em;
@@ -48,15 +47,6 @@ background-color: rgb(255,255,255);
    width: 65%;
    box-sizing: border-box;
     }
-
-.clearfix:before, 
-.clearfix:after {
-  content: "";
-  display: table;
-}
-
-.clearfix:after {
-  clear:both;
 
 
  #main_side {
