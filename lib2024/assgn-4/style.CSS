@@ -1,6 +1,6 @@
 
-{font-family:"Roboto"}
-h1{font-family:"Open Sans Condensed"}
+{font-family:"Roboto", sans-serif;}
+h1{font-family:"Open Sans Condensed", sans-serif;}
 
 {
   background: url(double-bubble.png) no-repeat center fixed;
