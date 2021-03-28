@@ -28,7 +28,11 @@ background-color: rgb(255,255,255);
 
 }
 
-
+.box {
+ background-image:double-bubble.png; 
+ padding: 100px;
+ margin: 100px;
+}
 
 
 
