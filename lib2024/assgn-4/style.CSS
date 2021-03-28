@@ -28,7 +28,7 @@ background-color: rgb(255,255,255);
 }
 
 .box {
- background-image: (/img/doublebubble.png); 
+ background: #6dcff6;
  padding: 100px;
  margin: 100px;
 }
@@ -37,6 +37,18 @@ background-color: rgb(255,255,255);
 P {
 font-family:"Roboto", sans-serif;
 }
+
+.top-section {
+
+
+}
+
+
+.bottom-section {
+
+  
+}
+
 
 
 
