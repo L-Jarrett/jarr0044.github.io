@@ -38,8 +38,9 @@ background-color: rgb(255,255,255);
  }
 
 
-P {
+p {
 font-family:"Roboto", sans-serif;
+margin-bottom: 10px;
 }
 
 .top-section {
