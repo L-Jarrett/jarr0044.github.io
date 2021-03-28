@@ -29,8 +29,8 @@ background-color: rgb(255,255,255);
 
 .box {
  background: #6dcff6;
- padding: 100px;
- margin: 100px;
+ width: 100px;
+ margin: 50px;
 }
 
 
