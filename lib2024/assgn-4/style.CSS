@@ -12,7 +12,7 @@ background-color: rgb(255,255,255);
           padding: 1em;
  }
 
- #headertitle {"Open Sans Condensed"}
+ #headertitle {font-family:"Open Sans Condensed", sans-serif}
 
 #Home {
   background-color: RGB (109,207,246);
@@ -52,7 +52,6 @@ background-color: rgb(255,255,255);
 
 figure {
     float: left;
-    /* set a margin to push the figures away from each other a bit */
     margin: 10px;
 }
 
