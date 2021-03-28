@@ -29,7 +29,7 @@ background-color: rgb(255,255,255);
 }
 
 .box {
- background-image: (.../img/doublebubble.png); 
+ background-image: (/img/doublebubble.png); 
  padding: 100px;
  margin: 100px;
 }
