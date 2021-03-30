@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+ #footer {
+   background-color: rgb(124,197,118);
+   margin: 1em 0;
+   clear:both;
+ }
+ 
+ #copyright {
+    position: absolute;
+    right: 0px;
+ }
+
+ .social_button {
+   border: 10px;
+ }
+ .social_image {
+   width: 100px;
+   height: 75px;
+ }
