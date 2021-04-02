@@ -95,8 +95,7 @@
 				“<input> elements of type color provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in #rrggbb format. Only simple colors are allowed though CSS colors has more formats.” 
 		</li></p>
 		<!-- Qus 10 -->
-		<li>
-			<p>
+		<li> <p>
 				<strong>Question: 10</strong>
 				What is the use of name and value attributes? Give two examples
 			</p>
@@ -179,37 +178,138 @@
 		<!-- Qus  15-->
 		<li> <p>
 				<strong>Question: 15</strong>
-				
+				Create CSS animation block to rotate an element that has the following properties :
+				class "rotate-me"
+				It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
 			</p>
 			<p>
 				<strong>Answer: </strong>
-				
+				<style type="text/css"> 
+				#spinner { 
+				-webkit-animation-name: rotate-me 
+				-webkit-animation-timing-function: linear; 
+				-webkit-animation-iteration-count: infinite; 
+				-webkit-animation-duration: 0.5s; 
+
+				animation-name: spinner; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite; 
+				animation-duration: 5s; 
+				-webkit-transform-style: preserve-3d; 
+				-moz-transform-style: preserve-3d; 
+				-ms-transform-style: preserve-3d; 
+				transform-style: preserve-3d; } 
+
+				#spinner:hover { -webkit-animation-play-state: paused; 
+				animation-play-state: paused; 
+				} 
+                </style> 
 		</li></p>
-		<!-- Qus  -->
+		<!-- Qus 16 -->
 		<li> <p>
-				<strong>Question: </strong>
-				
+				<strong>Question: 16</strong>
+				How would you include create an alert with string "I love JavaScript" using JavaScript?
 			</p>
 			<p>
 				<strong>Answer: </strong>
-				
+				let str = "I love JavaScript"; 
+				let result = str.match(/Java(Script)/); 
+
+				alert( result[0] ); // JavaScript (full match) 
+				alert( result[1] ); // Script (first capturing group) 
+				alert( result.length ); // 2 
+
+				// Additional information: 
+				alert( result.index ); // 7 (match position) 
+				alert( result.input ); // I love JavaScript (source string) 
 		</li></p>
 		
-		<!-- Qus  -->
+		<!-- Qus  17-->
 		<li> <p>
-				<strong>Question: </strong>
-				
+				<strong>Question: 17</strong>
+				How would you fade out an element with id "fade-me" after a delay of 300ms using Jquery?
 			</p>
 			<p>
 				<strong>Answer: </strong>
-				
+				Fade In 
+				$('#overlay').fadeIn('fast');
+   				$('#box').fadeIn('slow');
+
+				Fade Out
+				$('#overlay').fadeOut('fast');
+				$('#box').hide();
 		</li></p>
 		
+		<!-- Qus  18-->
+		<li> <p>
+				<strong>Question: 18</strong>
+				How would you select all elements with class "my-class" using Javascript and Jquery?
+			</p>
+			<p>
+				<strong>Answer: </strong>
+				“You would use
+				document.getElementsByClassName("legend").style.display="none";”
+		</li></p>
+		
+<!-- Qus  19-->
+		<li> <p>
+				<strong>Question: 19</strong>
+				Give an example of input field that takes phone number with format "123-456-7890"?
+			</p>
+			<p>
+				<strong>Answer: </strong>
+				const isNumericInput = (event) => {
+    			const key = event.keyCode;
+    			return ((key >= 48 && key <= 57) || // Allow number line
+        		(key >= 96 && key <= 105) // Allow number pad
+    			);
+				};
 
+				const isModifierKey = (event) => {
+    			const key = event.keyCode;
+    			return (event.shiftKey === true || key === 35 || key === 36) || // Allow Shift, Home, End
+        		(key === 8 || key === 9 || key === 13 || key === 46) || // Allow Backspace, Tab, Enter, Delete
+        		(key > 36 && key < 41) || // Allow left, up, right, down
+        		(
+            	// Allow Ctrl/Command + A,C,V,X,Z
+            	(event.ctrlKey === true || event.metaKey === true) &&
+            	(key === 65 || key === 67 || key === 86 || key === 88 || key === 90)
+        		)
+				};
 
+				const enforceFormat = (event) => {
+    			// Input must be of a valid number format or a modifier key, and not longer than ten digits
+    			if(!isNumericInput(event) && !isModifierKey(event)){
+        		event.preventDefault();
+    			}
+				};
 
+				const formatToPhone = (event) => {
+    			if(isModifierKey(event)) {return;}
+				const input = event.target.value.replace(/\D/g,'').substring(0,10); // First ten digits of input only
+    			const areaCode = input.substring(0,3);
+    			const middle = input.substring(3,6);
+    			const last = input.substring(6,10);
 
+    			if(input.length > 6){event.target.value = `(${areaCode}) ${middle} - ${last}`;}
+    			else if(input.length > 3){event.target.value = `(${areaCode}) ${middle}`;}
+ 				else if(input.length > 0){event.target.value = `(${areaCode}`;}
+				};
 
+				const inputElement = document.getElementById('phoneNumber');
+				inputElement.addEventListener('keydown',enforceFormat);
+				inputElement.addEventListener('keyup',formatToPhone);
+		</li></p>
+		
+<!-- Qus  20-->
+		<li> <p>
+				<strong>Question: 20</strong>
+				Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason.
+			</p>
+			<p>
+				<strong>Answer: </strong>
+				I prefer HTML.  It is the backbone of coding and without it, nothing would work.  I like that you can add to it and style it with CSS, Javascript, etc.  
+		</li></p>
 	</ol>
 </body>
 </html>
