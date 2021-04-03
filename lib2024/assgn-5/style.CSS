@@ -13,7 +13,8 @@
   font-weight:bold;
   color:#000000;
   background-color: #3b8586;
-
+  width: 120px;
+  text-align: center;
   }
   li{
     float-left;
