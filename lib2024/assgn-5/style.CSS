@@ -15,6 +15,13 @@
   background-color: #3b8586;
   width: 120px;
   text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
+  text-decoration:none;
+  }
+
+  a:hover, a:active{
+    background-color:#7A991A;
   }
   li{
     float-left;
