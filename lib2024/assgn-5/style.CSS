@@ -94,6 +94,12 @@ body {
 }
 
 
+header {
+  background:#3b8586;
+  color: #000000;
+  padding-top: 30px;
+  min-height: 70px;
+}
 
 
 
