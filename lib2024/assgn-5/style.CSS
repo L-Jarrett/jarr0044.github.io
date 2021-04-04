@@ -120,6 +120,18 @@ header li{
 }
 
 
+header #branding {
+  float:left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+
+}
 
 
  #footer {
