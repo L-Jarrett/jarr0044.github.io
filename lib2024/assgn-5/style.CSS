@@ -148,7 +148,14 @@ header a: hover {
 #showcase {
   min-height: 400px;
   background-image: url ('../img/pexelsphoto412842.jpeg') no repeat 0 -400 px;
-  text-align:center;
+  text-align:left;
+}
+
+  #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
 }
 
 
