@@ -140,11 +140,27 @@ header .highlight, header .current a {
 
 }
 
-
 header a: hover {
   colour: #cccccc;
   font-weight: bold;
 }
+
+#showcase {
+  min-height: 400px;
+  background-image: url ('../img/pexelsphoto412842.jpeg') no repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
