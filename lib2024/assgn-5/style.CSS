@@ -174,10 +174,15 @@ header a: hover {
   }
 
 
+  #boxes {
+    margin-top: 20px;
+
+}
 
 
-
-
+  #boxes  .box {
+    float: left;
+  }
 
 
 
