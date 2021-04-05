@@ -141,6 +141,11 @@ header .highlight, header .current a {
 }
 
 
+header a: hover {
+  colour: #cccccc;
+  font-weight: bold;
+}
+
 
 
  #footer {
