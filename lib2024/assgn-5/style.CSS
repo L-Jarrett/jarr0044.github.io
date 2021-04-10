@@ -101,8 +101,8 @@ body {
 
   font-family: var(--ff-primary);
   font-weight: 400;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 1.3125rem;
+  line-height: 1.6;
   padding: 0;
   margin: 0;
   background-color: #ffffff;
