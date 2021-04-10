@@ -1,3 +1,8 @@
+{
+--ff-primary: 'Roberto', sans-serif;
+--ff-accent:
+}
+
 
 .header {
   min-height: 100vh;
@@ -94,7 +99,8 @@
 
 body {
 
-  font-family
+  font-family: var(--ff-primary);
+  font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
