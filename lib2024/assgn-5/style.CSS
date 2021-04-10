@@ -58,9 +58,18 @@ h3 {
   line-height: 1;
 }
 
-.bg-light {background-color:#ffffff;}
-.bg-primary {background-color: #808080;}
-.bg-dark {background-color #3b8586;}
+.bg-light {
+  color: #000000;
+  background-color:#ffffff;
+}
+.bg-primary {
+  color: #000000;
+  background-color: #808080;
+}
+.bg-dark {
+  color: #000000;
+  background-color #3b8586;
+}
 
 }
 
