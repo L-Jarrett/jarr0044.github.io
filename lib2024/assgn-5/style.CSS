@@ -77,6 +77,9 @@ section {
   background-color #3b8586;
 }
 
+header, 
+section {
+  padding: 3rem 0;
 }
 
 
