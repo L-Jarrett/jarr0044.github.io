@@ -176,7 +176,7 @@ header {
   color: #000000;
 }
 
-
+<i class="fas fa-user"></i>
 
 
 header a{
@@ -276,3 +276,4 @@ header a: hover {
     text-rendering:auto;
     -webkit-font-smoothing: antialiased;
  }
+ 
