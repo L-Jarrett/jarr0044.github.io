@@ -176,7 +176,24 @@ header {
   color: #000000;
 }
 
-<i class="fas fa-user"></i>
+
+    {<i class="fas fa-user"></i>
+    font-family: "Font Awesome 5 Brands"; content: "\f007";
+    font-weight: 900;
+    font-size: 0.85em;
+    margin-right: 0.5em;
+    content: "\f007";
+    display:inline-block;
+    font-style: normal;
+    font-variant:normal;
+    text-rendering:auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+
+
+
+
 
 
 header a{
@@ -269,6 +286,8 @@ header a: hover {
  .twitter::before {
     font-family: "Font Awesome 5 Brands"; content: "\f099";
     font-weight: 900;
+    font-size: 0.85em;
+    margin-right: 0.5em;
     content: "\f007";
     display:inline-block;
     font-style: normal;
@@ -276,4 +295,3 @@ header a: hover {
     text-rendering:auto;
     -webkit-font-smoothing: antialiased;
  }
- 
