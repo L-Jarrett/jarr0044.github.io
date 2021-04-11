@@ -58,6 +58,12 @@ h3 {
   line-height: 1;
 }
 
+
+section {
+  padding:3rem 0;
+}
+
+
 .bg-light {
   color: #000000;
   background-color:#ffffff;
