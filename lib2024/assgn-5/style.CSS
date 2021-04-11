@@ -50,8 +50,8 @@
 
 .bg-image{
   padding: 20em;
-  background-image:doublebubblebackground.png;
-  background-repeat: no-repeat;
+  background-image:"doublebubblebackground.png";
+  background-repeat: repeat;
   background-position: center;
 }
 
