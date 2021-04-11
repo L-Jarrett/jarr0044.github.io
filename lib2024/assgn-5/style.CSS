@@ -266,4 +266,6 @@ header a: hover {
    clear:both;
  }
  
- 
+ .twitter::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f099";
+  }
