@@ -145,9 +145,17 @@
 
     <label for="address">Province:</label>
     <input type="province" id="province" name="province">
+      <option value="Ontario">Ontario</option>
+      <option value="Quebec">Quebec</option>
+      <option value="Alberta">Alberta</option>
+      <option value="British Columbia">British Columbia</option>
+      <option value="New Foundland">New Foundland</option>
+      <option value="Nova Scotia">Nova Scotia</option>
+      <option value="Prince Edward Island">Prince Edward Island</option>
+      <option value="Manitoba">Manitoba</option>
+      <option value="Saskatchewan">Saskatchewan</option>
     <label for="address">Postal Code:</label>
-    <input type="postalcode" id="postalcode" name="postalcode">
-
+    <input type="postalcode" id="postalcode" name="postalcode" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
 </div>
 
 <button type="submit" class="button_1">Submit</button>
