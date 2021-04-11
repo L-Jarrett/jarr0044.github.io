@@ -48,8 +48,10 @@
 
 </style>
 
-.doublebubblebackground{
+.bg-image{
   padding: 20em;
+  background-image:doublebubblebackground.png;
+  background-repeat: no-repeat;
 }
 
 h1
