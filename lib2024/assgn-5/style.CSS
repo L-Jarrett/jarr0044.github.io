@@ -177,7 +177,7 @@ header {
 }
 
 
-    {<i class="fas fa-user"></i>
+    .icon::before {
     font-family: "Font Awesome 5 Brands"; content: "\f007";
     font-weight: 900;
     font-size: 0.85em;
