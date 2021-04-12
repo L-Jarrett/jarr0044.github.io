@@ -315,6 +315,12 @@ header a: hover {
   margin: auto;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
  .footer{
     background-color: #808080;
     padding: 70px 0;
