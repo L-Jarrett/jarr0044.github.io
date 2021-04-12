@@ -354,6 +354,7 @@ ul{
   margin-bottom: 30px;
   font-weight: 500;
   position: relative;
+  background-color: #808080;
 }
 
 .footer-col h4::before{
@@ -361,9 +362,23 @@ ul{
   position:absolute;
   left:0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #808080;
   height: 2px;
   box-sizing:border-box;
   width: 50px;
+}
+
+.footer-col ul li:not (:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size:16px; 
+  text-transform: capitalize;
+  colour: #ffffff;
+  text-transform: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
 }
 
