@@ -320,12 +320,19 @@ header a: hover {
   flex-wrap: wrap;
 }
 
+ul{
+  list-style: none;
+}
 
  .footer{
     background-color: #808080;
     padding: 70px 0;
  }
 
+.footer-col{
+  width:25%;
+  padding: 0 15px;
+}
 
 
 
