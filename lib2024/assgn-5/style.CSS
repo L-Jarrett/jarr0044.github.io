@@ -68,12 +68,16 @@ ul{
   margin-left: 40px;
 }
 
-.header   .nav ul li{
+.header   .nav ul li a{
   display: block;
   font-size: 16px;
   padding: 10px 0;
   color: #000000;
   text-transform: capitalize;
+  transition: all 0.5s ease;
+
+.header   .nav ul li a:hover;
+.header   .nav ul li a.active{}
 
 
 .header   .logo{}
