@@ -143,9 +143,22 @@ ul{
     opacity: 1;
     visibility: visible;
 }
+.header   #nav-check: focus ~ .navtoggler{
+  box-shadow: 0 0 15px #000000;
 
 
+.header   #nav-check: checked ~ .navtoggler span{
+  background-color: transparent;
+}
 
+.header   #nav-check: checked ~ .navtoggler span::before{
+  top: 0;
+  transform: rotate(45deg);
+}
+.header   #nav-check: checked ~ .navtoggler span::after{
+  top: 0;
+  transform: rotate(-45deg);
+}
 
 
 
