@@ -10,6 +10,30 @@
 
 }
 
+body{
+  line-height: 1.5;
+  font-family: serif;
+  background-color: #3b8586;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration:none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width:1170px;
+  margin: auto;
+}
 
 
 
