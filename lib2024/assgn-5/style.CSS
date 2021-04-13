@@ -48,15 +48,43 @@ ul{
   justify-content: space-between;
 }
 
+.header{
+  padding: 12px 0;
+}
+
+
 .header   .logo{}
 
 
 .header   .nav{}
 
+.header   .logo{
+  font-size: 30px
+  color: #000000;
+  text-transform: capitalize;
+
 .header   .nav ul li{
   display: inline-block;
   margin-left: 40px;
 }
+
+.header   .nav ul li{
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  color: #000000;
+  text-transform: capitalize;
+
+
+.header   .logo{}
+
+
+.header   .nav{
+  padding: 0 15px
+}
+
+
+
 
 
 <style type="text/css">
