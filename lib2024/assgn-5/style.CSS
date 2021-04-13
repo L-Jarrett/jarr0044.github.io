@@ -35,12 +35,28 @@ ul{
   margin: auto;
 }
 
+.row{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.header   .logo{}
 
 
+.header   .nav{}
 
-
-
-
+.header   .nav ul li{
+  display: inline-block;
+  margin-left: 40px;
+}
 
 
 <style type="text/css">
