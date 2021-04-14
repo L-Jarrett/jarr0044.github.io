@@ -285,7 +285,7 @@ section {
   color: #808080;
   background-color: #000000;
 }
-
+/* changing this -color and background-color didn't seem to do anything */
 
 
 header, 
@@ -308,7 +308,7 @@ section {
 
 /* Add a background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #808080;
   overflow: hidden;
 }
 
