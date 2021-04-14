@@ -375,13 +375,7 @@ header {
   min-height: 70px;
 }
 
-
-
-
-
-
-
-
+/* changing background and color didn't seem to do anything */
 
 
 .button_1 {
@@ -391,7 +385,7 @@ header {
   padding-right: 20px;
   color: #000000;
 }
-
+/* I did not want to touch as the button is actually the way it's supposed to be */
 
     .icon::before {
     font-family: "Font Awesome 5 Brands"; content: "\f007";
@@ -407,13 +401,8 @@ header {
  }
 
 
-
-
-
-
-
 header a{
-  color: #000000;
+  color: #3b8586;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
