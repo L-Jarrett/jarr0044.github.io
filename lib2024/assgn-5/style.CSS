@@ -83,9 +83,11 @@ ul{
   text-transform: capitalize;
   transition: all 0.5s ease;
 }
+ /* changing this -color didn't seem to do anything */
+
 .header  .nav ul li a:hover,
 .header  .nav ul li a.active{
-  color: #ffffff;
+  color: #808080;
 }
 
 .header #nav-check{
