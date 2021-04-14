@@ -58,7 +58,7 @@ ul{
   position: relative;
 }
 
-/*  */
+/* changing this background-color didn't seem to do anything */
 
 
 .header   .logo{}
@@ -66,7 +66,7 @@ ul{
 
 .header   .logo{
   font-size: 30px
-  color: #000000;
+  color: #3b8586;
   text-transform: capitalize;}
 
 .header   .nav ul li{
