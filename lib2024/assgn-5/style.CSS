@@ -359,6 +359,8 @@ body {
   margin: 0;
   background-color: #808080;
 }
+/* changing background-color didn't seem to do anything */
+
 
 .container {
   margin-inline: auto;
@@ -367,7 +369,7 @@ body {
 
 
 header {
-  background:#3b8586;
+  background:#808080;
   color: #000000;
   padding-top: 30px;
   min-height: 70px;
