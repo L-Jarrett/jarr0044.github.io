@@ -272,11 +272,11 @@ section {
   color: #3b8586;
   background-color:#808080;
 }
-/* changing this -color didn't seem to do anything */
+/* changing this -color and background-color didn't seem to do anything */
 
 
 .bg-primary {
-  color: #000000;
+  color: #808080;
   background-color: #808080;
 }
 
