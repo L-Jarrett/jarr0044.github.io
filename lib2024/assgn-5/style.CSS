@@ -541,7 +541,7 @@ ul{
     background-color: #000000;
     padding: 70px 0;
  }
-
+ /* changing  color didn't seem to do anything */
 .footer-col{
   width:25%;
   padding: 0 15px;
@@ -554,7 +554,7 @@ ul{
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
-  background-color: #808080;
+  background-color: #000000;
 }
 
 .footer-col h4::before{
