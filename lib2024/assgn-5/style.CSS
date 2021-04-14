@@ -337,9 +337,13 @@ section {
   color: #3b8586;
 }
 
+/* changing color and background-color didn't seem to do anything */
+
+
+
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #808080;
   color: white;
 }
 
