@@ -570,6 +570,8 @@ ul{
   width: 50px;
 }
 
+ /* changing  color didn't seem to do anything */
+
 .footer-col ul li:not (:last-child){
   margin-bottom: 10px;
 }
@@ -577,10 +579,9 @@ ul{
 .footer-col ul li a{
   font-size:16px; 
   text-transform: capitalize;
-  color: #ffffff;
+  color: #808080;
   text-transform: none;
   font-weight: 300;
-  color: #bbbbbb;
   display: block;
   transform: all 0.3s ease;
 }
