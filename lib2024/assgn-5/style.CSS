@@ -557,12 +557,14 @@ ul{
   background-color: #000000;
 }
 
+ /* changing  color didn't seem to do anything */
+
 .footer-col h4::before{
   content: '';
   position:absolute;
   left:0;
   bottom: -10px;
-  background-color: #808080;
+  background-color: #000000;
   height: 2px;
   box-sizing:border-box;
   width: 50px;
