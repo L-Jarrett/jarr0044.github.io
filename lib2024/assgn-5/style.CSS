@@ -446,11 +446,14 @@ header a: hover {
   font-weight: bold;
 }
 
+/* changing  color didn't seem to do anything */
+
 #showcase {
   min-height: 400px;
-  background-image: url ('../img/pexelsphoto412842.jpeg') no repeat 0 -400 px;
+  background-image: url ("../img/pexelsphoto412842.jpeg") no repeat 0 -400 px;
   text-align:left;
 }
+/* picture does not show up */
 
   #showcase h1 {
     margin-top: 100px;
