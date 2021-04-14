@@ -53,10 +53,12 @@ ul{
 }
 
 .header{
-  background-color: 3b8586;
+  background-color: #3b8586;
   padding: 12px 0;
   position: relative;
 }
+
+/*  */
 
 
 .header   .logo{}
