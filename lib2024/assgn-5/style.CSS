@@ -326,14 +326,14 @@ section {
   font-size: 17px;
 }
 
-
+/* changing color didn't seem to do anything */
 
 
 
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #808080;
   color: black;
 }
 
@@ -634,7 +634,7 @@ ul{
   
 
 .loader {
-    position: absolute;
+  position: absolute;
   left: 50%;
   top: 50%;
   width: 150px;
