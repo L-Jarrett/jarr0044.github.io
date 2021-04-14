@@ -14,6 +14,9 @@ body{
   line-height: 1.5;
   font-family: serif;
   background-color: #3b8586;
+ background-image: url("doublebubblebackground.png");
+}
+
 }
 
 *{
