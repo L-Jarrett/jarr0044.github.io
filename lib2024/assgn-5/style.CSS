@@ -156,6 +156,8 @@ ul{
   opacity: 0;
   visibility: hidden;
 }
+ /* changing this -color didn't seem to do anything */
+
 
 .header   .nav ul li{
   display: block;
@@ -207,7 +209,7 @@ ul{
   a link, a : visited {
   display:block;
   font-weight:bold;
-  color:#000000;
+  color:#7A991A;
   background-color: #3b8586;
   width: 120px;
   text-align: center;
@@ -215,6 +217,11 @@ ul{
   text-transform: uppercase;
   text-decoration:none;
   }
+
+
+
+
+
 
   a:hover, a:active{
     background-color:#7A991A;
