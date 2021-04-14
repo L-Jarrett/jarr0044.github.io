@@ -89,6 +89,7 @@ ul{
 .header  .nav ul li a.active{
   color: #808080;
 }
+ /* changing this -color didn't seem to do anything */
 
 .header #nav-check{
   position: absolute;
@@ -98,7 +99,7 @@ ul{
 .nav-toggler {
   height: 34px;
   width: 44px;
-  background-color: #ffffff;
+  background-color: #3b8586;
   border-radius: 4px;
   cursor: pointer;
   display: none;
