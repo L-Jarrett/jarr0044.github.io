@@ -346,7 +346,7 @@ section {
   background-color: #808080;
   color: #3b8586;
 }
-
+/* changing color and background-color didn't seem to do anything */
 
 
 body {
@@ -357,7 +357,7 @@ body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #808080;
 }
 
 .container {
