@@ -407,6 +407,7 @@ header a{
   text-transform: uppercase;
   font-size: 16px;
 }
+/* changing  color didn't seem to do anything */
 
 header ul{
   margin: 0px;
