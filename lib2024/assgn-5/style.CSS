@@ -218,13 +218,13 @@ ul{
   text-decoration:none;
   }
 
-/* changing this -color didn't seem to do anything */
+/* changing this -color and background-color didn't seem to do anything */
 
 
 
 
   a:hover, a:active{
-    background-color:#7A991A;
+    background-color:#808080;
   }
   li{
     float-left;
