@@ -603,9 +603,11 @@ ul{
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #3b8586;
   transition: all 0.5s ease;
 }
+ /* changing  color didn't seem to do anything */
+
 
 .footer-col .social-links a:hover{
   color: #24262b;
