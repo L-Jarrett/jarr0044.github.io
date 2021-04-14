@@ -586,6 +586,9 @@ ul{
   transform: all 0.3s ease;
 }
 
+ /* changing  color didn't seem to do anything */
+
+
 .footer-col ul li a:hover{
   color: #ffffff;
   padding-left: 10px;
@@ -595,7 +598,7 @@ ul{
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: RGB (128,128,128);
+  background-color: 808080;
   margin:0 10px 10px 0;
   text-align: center;
   line-height: 40px;
