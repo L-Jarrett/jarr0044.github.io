@@ -487,10 +487,12 @@ header a: hover {
 
  #footer {
    padding: 20px;
-   background-color: #808080;
+   background-color: #000000;
    margin-top: 20px;
    clear:both;
  }
+
+ /* changing  color didn't seem to do anything */
  
  .twitter::before {
     font-family: "Font Awesome 5 Brands"; content: "\f099";
