@@ -16,6 +16,7 @@ body{
   background-color: #ffffff;
  background-image: url("doublebubblebackground.png");
 }
+/* changing this background-color to white changes the document to completely white */
 
 }
 
@@ -52,7 +53,7 @@ ul{
 }
 
 .header{
-  background-color: var;
+  background-color: 3b8586;
   padding: 12px 0;
   position: relative;
 }
