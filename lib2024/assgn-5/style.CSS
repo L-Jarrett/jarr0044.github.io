@@ -270,8 +270,9 @@ section {
 
 .bg-light {
   color: #3b8586;
-  background-color:#ffffff;
+  background-color:#808080;
 }
+/* changing this -color didn't seem to do anything */
 
 
 .bg-primary {
