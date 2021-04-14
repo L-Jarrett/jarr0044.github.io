@@ -438,11 +438,11 @@ header nav {
 header .highlight, header .current a {
   color:  #808080;
   font-weight:bold;
-
 }
+/* changing  color didn't seem to do anything */
 
 header a: hover {
-  colour: #cccccc;
+  colour: #000000;
   font-weight: bold;
 }
 
