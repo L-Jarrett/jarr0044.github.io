@@ -606,12 +606,12 @@ ul{
   color: #3b8586;
   transition: all 0.5s ease;
 }
- /* changing  color didn't seem to do anything */
+ /* changing  color and background-color didn't seem to do anything */
 
 
 .footer-col .social-links a:hover{
   color: #24262b;
-  background-color: #ffffff;
+  background-color: #808080;
 }
 
 @media (max-width: 767px){
