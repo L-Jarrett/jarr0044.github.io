@@ -334,7 +334,7 @@ section {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #808080;
-  color: black;
+  color: #3b8586;
 }
 
 /* Add a color to the active/current link */
