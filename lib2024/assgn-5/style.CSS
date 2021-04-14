@@ -344,7 +344,7 @@ section {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #808080;
-  color: white;
+  color: #3b8586;
 }
 
 
