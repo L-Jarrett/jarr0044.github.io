@@ -130,7 +130,7 @@ ul{
   background-color: #3b8586;
   left: 0;
 }
-
+ /* changing this -color didn't seem to do anything */
 
 
 
@@ -151,7 +151,7 @@ ul{
   left: 0;
   top: 100%;
   width: 100%;
-  background-color: var;
+  background-color: #3b8586;
   border-top: 1px solid rgba (255, 255, 255, 0.2);
   opacity: 0;
   visibility: hidden;
