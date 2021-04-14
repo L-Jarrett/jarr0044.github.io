@@ -229,6 +229,8 @@ ul{
   li{
     float-left;
   }
+/* changing this background-color didn't seem to do anything */
+
 
 </style>
 
@@ -267,17 +269,23 @@ section {
 
 
 .bg-light {
-  color: #000000;
+  color: #3b8586;
   background-color:#ffffff;
 }
+
+
 .bg-primary {
   color: #000000;
   background-color: #808080;
 }
+
+
 .bg-dark {
   color: #000000;
   background-color #3b8586;
 }
+
+
 
 header, 
 section {
