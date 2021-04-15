@@ -30,10 +30,6 @@ a{
   text-decoration:none;
 }
 
-ul{
-  list-style: none;
-}
-
 .container{
   max-width:1170px;
   margin: auto;
@@ -198,7 +194,7 @@ ul{
 
 
 
-<style type="text/css">
+
   ul {
   list-style-type:none;
   margin: 0;
@@ -232,14 +228,7 @@ ul{
 /* changing this background-color didn't seem to do anything */
 
 
-</style>
 
-.bg-image{
-  padding: 20em;
-  background-image:"doublebubblebackground.png";
-  background-repeat: repeat;
-  background-position: center;
-}
 
 h1
 h2
@@ -523,10 +512,7 @@ body{
   box-sizing: border-box;
 }
 
-.container{
-  max-width:1170px;
-  margin: auto;
-}
+
 
 .row{
   display: flex;
@@ -542,12 +528,11 @@ ul{
     padding: 70px 0;
  }
  /* changing  color didn't seem to do anything */
+
+
 .footer-col{
   width:25%;
   padding: 0 15px;
-}
-
-.footer-col{
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
@@ -572,13 +557,12 @@ ul{
 
  /* changing  color didn't seem to do anything */
 
-.footer-col ul li:not (:last-child){
+.footer-col ul li:not(:last-child){
   margin-bottom: 10px;
 }
 
 .footer-col ul li a{
   font-size:16px; 
-  text-transform: capitalize;
   color: #808080;
   text-transform: none;
   font-weight: 300;
