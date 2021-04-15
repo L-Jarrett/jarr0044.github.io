@@ -14,11 +14,11 @@ body{
   line-height: 1.5;
   font-family: serif;
   background-color: #ffffff;
- background-image: url("doublebubblebackground.png");
+  background-image: url("img/doublebubblebackground.png");
 }
 /* changing this background-color to white changes the document to completely white */
 
-}
+
 
 *{
   box-sizing: border-box;
