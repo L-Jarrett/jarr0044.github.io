@@ -1,7 +1,5 @@
 {
-font-family: 'Roberto', sans-serif;
---ff-accent:
-}
+
 
 
 .header {
@@ -410,13 +408,14 @@ header li{
 }
 
 
-header #branding {
+#branding {
   float:left;
+  font-family: 'Roberto', sans-serif;
+--ff-accent:
+}
 }
 
-header #branding h1 {
-  margin: 0;
-}
+
 
 header nav {
   float: middle;
@@ -555,7 +554,7 @@ ul{
   width: 50px;
 }
 
- /* changing  color didn't seem to do anything */
+ /* worked on with Tom */
 
 .footer-col ul li:not(:last-child){
   margin-bottom: 10px;
@@ -567,7 +566,7 @@ ul{
   text-transform: none;
   font-weight: 300;
   display: block;
-  transform: all 0.3s ease;
+  //transition: all 0.3s ease; 
 }
 
  /* changing  color didn't seem to do anything */
