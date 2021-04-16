@@ -1,12 +1,78 @@
 
    
 
-body{
-  line-height: 1.5;
+body {
   font-family: serif;
-  //background-color: #ffffff;
   background-image: url("../img/doublebubbleoutline.png");
-} 
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.3125rem;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Roboto';
+  /* font-family: 'Roboto', sans-serif; XXX*/
+  font-family: 'Roboto:wght@900', sans-serif;
+}
+
+h1, h2, h3, th {
+    font-family: 'Roboto', sans-serif;
+    color: #5F9EA0;
+    text-shadow: 2px 2px 2px #aaa;
+    text-transform: uppercase;
+}
+
+#branding {
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    margin: 5%;
+    --ff-accent:
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+#topnav {
+@@ -44,11 +46,30 @@ h1, h2, h3, th {
+    padding-left: 0px;
+}
+
+#showcase {
+    margin: 5%;
+}
+#showcase img {
+    float: right;
+    width: 30%;
+}
+
+#schedule {
+    width: 90%;
+    margin: 5%;
+    border: thin solid;
+    border-collapse: collapse;
+    overflow-x:auto;
+}
+#schedule caption {
+    text-align: left;
+    padding-bottom: 20px;
+    color: #5F9EA0;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+#schedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#schedule th {
+    font-color: #5F9EA0;
+
+
+
+
+
+
+
+
+
+
 
 /*this is the messed up code part until the loader*/
 
