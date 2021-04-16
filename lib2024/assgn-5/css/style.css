@@ -79,7 +79,7 @@ h1, h2, h3, th {
 }
 a{
     text-decoration: none;
-    color: black;
+    color:  #000000;
 }
 a:hover, a:active {
     background-color:#FF7F50;
@@ -94,7 +94,7 @@ a:hover, a:active {
 
 
 
-/*this is the messed up code part until the loader*/
+
 
 
 
