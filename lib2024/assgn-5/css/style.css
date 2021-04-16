@@ -63,7 +63,27 @@ h1, h2, h3, th {
 }
 #schedule th {
     font-color: #5F9EA0;
-
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+    border: thin solid;
+    text-align: center;
+    font-size: 13pt;
+}
+#schedule td {
+    margin: 0px;
+    padding: 10px;
+    border: thin solid;
+    text-align: center;
+    font-size: 10pt;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active {
+    background-color:#808080;
+}
 
 
 
