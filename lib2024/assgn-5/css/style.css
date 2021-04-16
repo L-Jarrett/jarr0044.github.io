@@ -85,12 +85,19 @@ a:hover, a:active {
     background-color:#FF7F50;
 }
 
+/*footer attempt*/
+.container{
+  max-width: 1170px;
+  background-color: #000000;
+  margin:auto;
+}
 
 
+ .footer{
+    background-color: #000000;
 
 
-
-
+}
 
 
 
