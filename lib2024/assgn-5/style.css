@@ -570,6 +570,7 @@ footer ul li:not(:last-child){
 }
 
 .footer {
+  clear: both;
   font-size:16px; 
   background-color: #808080;
   color: white;
