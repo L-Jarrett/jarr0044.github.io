@@ -531,14 +531,14 @@ ul{
   list-style: none;
 }
 
- .footer{
+ footer{
     background-color: #000000;
     padding: 70px 0;
  }
  /* changing  color didn't seem to do anything */
 
 
-.footer{
+footer{
   width:25%;
   padding: 0 15px;
   font-size: 18px;
@@ -552,7 +552,7 @@ ul{
 
  /* changing  color didn't seem to do anything */
 
-.footer h4::before{
+footer h4::before{
   content: '';
   position:absolute;
   left:0;
@@ -565,28 +565,29 @@ ul{
 
  /* worked on */
 
-.footer ul li:not(:last-child){
+footer ul li:not(:last-child){
   margin-bottom: 10px;
 }
 
-.footer ul li a{
+.footer {
   font-size:16px; 
-  color: #808080;
+  background-color: #808080;
   text-transform: none;
   font-weight: 300;
   display: block;
-  //transition: all 0.3s ease; 
-}
+  //transition: all 0.3s ease;} 
+
+ul li a{}
 
  /* changing  color didn't seem to do anything */
 
 
-.footer ul li a:hover{
+footer ul li a:hover{
   color: #ffffff;
   padding-left: 10px;
 }
 
-.footer 
+footer 
 
 .social-links{ 
 
@@ -605,7 +606,7 @@ ul{
   /* changing  color didn't seem to do anything */
 
 
-.footer 
+footer 
 
 .social-links a:hover{
   color: #000000;
@@ -614,14 +615,14 @@ ul{
 /* changing  color didn't seem to do anything */
 
 @media (max-width: 767px){
-  .footer {
+  footer {
     width: 50%;
     margin-bottom: 30px;
   }
   }
 
 @media (max-width: 574px){
-  .footer-col {
+  footer {
     width: 100%;
     }
     }
