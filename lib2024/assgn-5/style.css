@@ -37,7 +37,15 @@ body{
   /* changing  color didn't seem to do anything */
 
 
+.social_button {
+   border: 10px;
+ }
+ .social_image {
+   width: 100px;
+   height: 75px;
+ }
 
+ 
 
 
 
