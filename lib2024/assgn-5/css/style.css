@@ -88,102 +88,30 @@ a:hover, a:active {
 
 /*trial CSS*/
 
-.header {
-  min-height: 100vh;
-  width: 100%;
 
+
+
+
+
+
+
+
+
+
+ /* worked on */
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
 }
 
-body{
-  line-height: 1.5;
-  font-family: serif;
-  //background-color: #ffffff;
-  background-image: url("../img/doublebubblebackgroundoutline.png");
-}
-/* changing this background-color to white changes the document to completely white */
-
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a{
-  text-decoration:none;
-}
-
-.container{
-  max-width:1170px;
-  margin: auto;
-}
-
-.row{
-  display:flex;
-  flex-wrap: wrap;
-
-}
-.align-items-center {
-  align-items: center;
-}
-
-.justify-content-between{
-  justify-content: space-between;
-}
-
-.header{
-  background-color: #3b8586;
-  padding: 12px 0;
-  position: relative;
-}
-
-/* changing this background-color didn't seem to do anything */
-
-
-.header   .logo{}
-.header   .nav{}
-
-.header   .logo{
-  font-size: 30px
-  color: #3b8586;
-  text-transform: capitalize;}
-  /* changing this -color didn't seem to do anything */
-
-.header   .nav ul li{
-  display: inline-block;
-  margin-left: 40px;
-}
-
-.header   .nav ul li a{
-  display: block;
-  font-size: 16px;
-  padding: 10px 0;
-  color: #3b8586;
-  text-transform: capitalize;
-  transition: all 0.5s ease;
-}
- /* changing this -color didn't seem to do anything */
-
-.header  .nav ul li a:hover,
-.header  .nav ul li a.active{
+.footer-col ul li a{
+  font-size:16px; 
   color: #808080;
+  text-transform: none;
+  font-weight: 300;
+  display: block;
+  //transition: all 0.3s ease; 
 }
- /* changing this -color didn't seem to do anything */
-
-.header #nav-check{
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-
-
-
-
-
-
-
-
-
-
 
 
 
