@@ -565,11 +565,11 @@ ul{
 
  /* worked on */
 
-.footer-col ul li:not(:last-child){
+.footer ul li:not(:last-child){
   margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.footer ul li a{
   font-size:16px; 
   color: #808080;
   text-transform: none;
@@ -581,7 +581,7 @@ ul{
  /* changing  color didn't seem to do anything */
 
 
-.footer-col ul li a:hover{
+.footer ul li a:hover{
   color: #ffffff;
   padding-left: 10px;
 }
