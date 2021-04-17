@@ -21,11 +21,9 @@ body{
 
 
 .social-links{ 
-
-{
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 75px;
+  width: 100px;
   background-color: 808080;
   margin:0 10px 10px 0;
   text-align: center;
@@ -37,13 +35,6 @@ body{
   /* changing  color didn't seem to do anything */
 
 
-.social_button {
-   border: 10px;
- }
- .social_image {
-   width: 100px;
-   height: 75px;
- }
 
  
 
