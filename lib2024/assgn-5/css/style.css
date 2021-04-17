@@ -85,99 +85,95 @@ a:hover, a:active {
     background-color:#FF7F50;
 }
 
-/*footer attempt*/
+
+/*trial CSS*/
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+
+}
+
+body{
+  line-height: 1.5;
+  font-family: serif;
+  //background-color: #ffffff;
+  background-image: url("../img/doublebubblebackgroundoutline.png");
+}
+/* changing this background-color to white changes the document to completely white */
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration:none;
+}
+
 .container{
-  max-width: 1170px;
-  margin:auto;
+  max-width:1170px;
+  margin: auto;
 }
+
 .row{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
+
+}
+.align-items-center {
+  align-items: center;
 }
 
-ul{
-  list-style: none;
+.justify-content-between{
+  justify-content: space-between;
 }
 
-.footer{
-  background-color: #808080;
-  padding: 70px 0;
-}
-.footer-col{
-  width: 25%;
-  padding: 0 15px;
-}
-.footer-col h4{
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
+.header{
+  background-color: #3b8586;
+  padding: 12px 0;
   position: relative;
 }
-.footer-col h4::before{
-  content: '';
-  position: absolute;
-  left:0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing:border-box;
-  width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
 
-.footer-col ul li a{
-  font-size: 16px;
-  text-transform: capitalize;
-  color: ##808080;
-  text-decoration: none;
-  font-weight: 300;
-  display: block;
-  transform: all 0.3s ease;
-}
+/* changing this background-color didn't seem to do anything */
 
-.footer-col ul li a:hover{
-  color:#ffffff;
-  padding-left: 10px;
-}
 
-.footer-col .social-links a{
+.header   .logo{}
+.header   .nav{}
+
+.header   .logo{
+  font-size: 30px
+  color: #3b8586;
+  text-transform: capitalize;}
+  /* changing this -color didn't seem to do anything */
+
+.header   .nav ul li{
   display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin:0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
+  margin-left: 40px;
+}
+
+.header   .nav ul li a{
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  color: #3b8586;
+  text-transform: capitalize;
   transition: all 0.5s ease;
 }
+ /* changing this -color didn't seem to do anything */
 
-.footer-col .social-links a:hover{
-  color: ##808080;
-  background-color: #ffffff;
+.header  .nav ul li a:hover,
+.header  .nav ul li a.active{
+  color: #808080;
 }
+ /* changing this -color didn't seem to do anything */
 
-/*responsive part of the footer*/
-
-@media(max-width: 767px){
-  .footer-col{
-    width:50%;
-    margin-bottom: 30px;
-}
-}
-
-@media(max-width: 574px){
-  .footer-col{
-    width:100%;
-}
-}
-
-
+.header #nav-check{
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 
 
 
