@@ -538,7 +538,7 @@ ul{
  /* changing  color didn't seem to do anything */
 
 
-.footer-col{
+.footer{
   width:25%;
   padding: 0 15px;
   font-size: 18px;
@@ -552,7 +552,7 @@ ul{
 
  /* changing  color didn't seem to do anything */
 
-.footer-col h4::before{
+.footer h4::before{
   content: '';
   position:absolute;
   left:0;
@@ -586,7 +586,11 @@ ul{
   padding-left: 10px;
 }
 
-.footer-col .social-links a{
+.footer 
+
+.social-links{ 
+
+{
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -601,14 +605,16 @@ ul{
   /* changing  color didn't seem to do anything */
 
 
-.footer-col .social-links a:hover{
+.footer 
+
+.social-links a:hover{
   color: #000000;
   background-color: #808080;
 }
 /* changing  color didn't seem to do anything */
 
 @media (max-width: 767px){
-  .footer-col {
+  .footer {
     width: 50%;
     margin-bottom: 30px;
   }
