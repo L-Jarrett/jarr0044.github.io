@@ -576,6 +576,7 @@ footer ul li:not(:last-child){
   width: 100%;
   text-transform: none;
   font-weight: 300;
+  padding: 10px;
   display: block;
   //transition: all 0.3s ease;} 
 
