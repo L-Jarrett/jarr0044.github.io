@@ -26,6 +26,26 @@ body{
 
   /*the messed up code part-until the loader section*/
 
+#schedule tr:nth-child(even){background-color: #f2f2f2;}
+
+#schedule tr:hover {background-color: #ddd;}
+
+#schedule th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+
+
+
+
+
+
+
+
+
+
 
 .social-links{ 
   display: inline-block;
@@ -39,24 +59,20 @@ body{
   color: #3b8586;
   transition: all 0.5s ease;
 }
-  /* changing  color didn't seem to do anything */
+
+
+
+
+
+
 
 
 
  .footer {
-  background-color: #F1F1F1;
+  background-color: #808080;
   text-align: center;
   padding: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
