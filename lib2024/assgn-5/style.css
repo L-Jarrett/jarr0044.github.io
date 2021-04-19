@@ -24,7 +24,6 @@ body{
  } 
 
 
-  /*the messed up code part-until the loader section*/
 
 #schedule tr:nth-child(even){background-color: #f2f2f2;}
 
@@ -36,15 +35,6 @@ body{
   text-align: left;
   background-color: #4CAF50;
   color: white;
-
-
-
-
-
-
-
-
-
 
 
 .social-links{ 
@@ -59,13 +49,6 @@ body{
   color: #3b8586;
   transition: all 0.5s ease;
 }
-
-
-
-
-
-
-
 
 
  .footer {
