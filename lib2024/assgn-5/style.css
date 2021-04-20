@@ -1,15 +1,12 @@
 
 <head>
 <style>
-a:hover {
-  background-color: yellow;
-}
 </style>
 </head>
 
 
 
-#branding {
+h1{
   background-color: #3b8586;
   padding: 20px;
   text-align: left;
@@ -34,7 +31,7 @@ body{
   padding-bottom: 12px;
   text-align: left;
   background-color: #4CAF50;
- 
+ }
 
 .social-links{ 
   display: inline-block;
