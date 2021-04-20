@@ -115,7 +115,7 @@ body{
   height: 100%;
   background: radial-gradient(#a7a7a7, #4e4e4e);
   top: 0;
-  z-index: 2;
+  z-index: 2;}
   
 
 .loader {
